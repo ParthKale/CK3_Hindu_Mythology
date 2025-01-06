@@ -1,0 +1,38 @@
+# Start Tapasya
+
+start_tapasya_decision = {
+	
+    title = start_tapasya_decision_title | { ... }
+    selection_tooltip = start_tapasya_decision_tooltip
+
+    desc = start_tapasya_decision_desc
+    
+	
+    picture = {
+		reference = "gfx/interface/decisions/start_tapasya_decision.dds" # Path to the texture
+
+		### Brief: soundeffect ( sound effect name )
+		# Name of the sound effect played when showing the decision details
+		# Default: "event:/SFX/UI/Generic/Windows/sfx_ui_generic_window_standard_show"
+		soundeffect = "event:/SFX/UI/Generic/Windows/sfx_ui_generic_window_sidebar"
+	}
+
+    is_shown = {
+		religion = religion:hinduism_religion
+	}
+
+    is_valid = {
+        
+    }
+
+	ai_goal = no 				# If set, the AI will consider the decision a "goal" and consider it alongside major costs like title creation and holding construction. It will ignore ai_check_interval. Should only be used for things with such major costs that budgeting for it is important, as it is less performant than using a high ai_check_interval
+	ai_check_frequency = 0			# How many months to go between each check of this decision. Has to be set, except if ai_goal = yes is set. An interval of 0 means the AI will never check this decision
+
+	cost = {						
+		piety = 100
+	}
+
+    effect = {
+        trigger_event = tapasya_events.0001
+    }
+}

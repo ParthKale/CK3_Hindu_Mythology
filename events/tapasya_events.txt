@@ -1,0 +1,85 @@
+# Fired when user takes decision to Start Tapasya.
+
+# Choose God for Sadhana.
+tapasya_events.0001 = {
+
+    type = character_event
+    title = tapasya_events.0001.t
+	desc = tapasya_events.0001.d
+    theme = faith
+
+    override_background = {
+		reference = temple_generic
+	}
+    
+    left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    
+    # Trimurty
+    option = {
+        name = tapasya_events.trimurty.t
+        desc = tapasya_events.trimurty.d
+        effect = {
+            trigger_event = { id = tapasya_events.0002 }
+        }
+        
+    }
+
+    # Opt-out
+    option = {
+        name = tapasya_events.nogod.t
+        desc = tapasya_events.nogod.d
+    }
+}
+
+# Trimurty Selected, which one is your favourite god?
+
+tapasya_events.0002 = {
+
+    type = character_event`
+    title = tapasya_events.0002.t`
+	desc = tapasya_events.0002.d
+    theme = faith
+
+    override_background = {
+		reference = temple_generic
+	}
+
+    left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+    # Bramha
+    option = {
+        name = tapasya_events.bramha.t
+        desc = tapasya_events.bramha.d
+        effect = {
+            gain_trait = tapasya_bramha
+            #trigger_event = { id = tapasya_events.0003 }
+        }
+        
+    }
+
+    # Vishnu
+    option = {
+        name = tapasya_events.vishnu.t
+        desc = tapasya_events.vishnu.d
+        effect = {
+            gain_trait = tapasya_vishnu
+            #trigger_event = { id = tapasya_events.0004 }
+        }
+    }
+
+    # Shiva
+    option = {
+        name = tapasya_events.shiva.t
+        desc = tapasya_events.shiva.d
+        effect = {
+            gain_trait = tapasya_shiva
+            #trigger_event = { id = tapasya_events.0005 }
+        }
+    }
+}

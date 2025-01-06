@@ -1,0 +1,21 @@
+﻿l_english:
+  
+  tapasya_events.0001.t:0 "The Path of Tapasya"
+  tapasya_events.0001.d:0 "You have chosen to begin your tapasya, dedicating yourself to spiritual discipline and self-reflection. This will be a journey of hardship, but one that may lead to enlightenment. Which god will you choose?"
+  
+  tapasya_events.trimurty.t:0 "Devote yourself to Trimurti"
+  tapasya_events.trimurty.d:0 "You choose to dedicate your tapasya to Trimurti, the three supreme gods of creation, preservation, and destruction. Brahma, Vishnu, and Shiva will guide your journey towards enlightenment."
+  
+  tapasya_events.nogod.t:0 "Follow no specific deity"
+  tapasya_events.nogod.d:0 "You have decided to forsake dedicating your tapasya to any one particular deity. Instead, you will focus on self-discipline and universal enlightenment, independent of divine influence."
+
+  tapasya_events.bramha.t:0 "Devote yourself to Brahma"
+  tapasya_events.bramha.d:0 "You choose to dedicate your tapasya to Brahma, the creator of the universe. Through your devotion, you seek to gain insight into the mysteries of creation and the nature of existence."
+
+  tapasya_events.vishnu.t:0 "Devote yourself to Vishnu"
+  tapasya_events.vishnu.d:0 "You choose to dedicate your tapasya to Vishnu, the preserver of the universe. Through your devotion, you seek balance, harmony, and the strength to uphold righteousness."
+
+  tapasya_events.shiva.t:0 "Devote yourself to Shiva"
+  tapasya_events.shiva.d:0 "You choose to dedicate your tapasya to Shiva, the destroyer and transformer. Through your devotion, you seek inner strength, renewal, and the wisdom to transcend worldly attachments."
+
+
